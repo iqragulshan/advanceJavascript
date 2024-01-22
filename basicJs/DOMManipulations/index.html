@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+     .addedMyPara {
+        color: red;
+        font-size: larger;
+    }
+</style>
+
+<body>
+    <!-- get elemeny by id example -->
+    <div id="firstDiv"></div>
+
+    <!-- querry selector and querry selector all example -->
+    <h2 class="heading"></h2>
+    <h2 class="heading"></h2>
+    <h2 class="heading"></h2>
+
+    <!-- get element by class example -->
+    <p class="para"></p>
+
+    <!-- get element by name example -->
+    <input type="text" name="email" id="myEmail">
+
+    <!-- get element by tag name example -->
+    <h3 class="heading3" id="myHeading3"></h3>
+
+    <!-- alert  -->
+    <button onclick="clickMe()">click me </button>
+    <button id="Button">click me </button>
+
+    <!-- Mouseover / mouseout -->
+    <div onmouseover="mouseOver()" onmouseout="mouseOut()">Mouseover / mouseout</div>
+
+    <!-- keydown/keyup/keypress  -->
+    <input type="text" name="" id="" onkeydown="keyDown()" onkeyup="keyUp()" onkeypress="keyPress()"
+        onchange="change()">
+
+    <!-- Change  -->
+    <form action="" onsubmit="formSubmit()">
+
+        <label for="">Email:
+            <input type="text" name="" id="">
+            <button type="submit">submit</button>
+        </label>
+    </form>
+
+    <!-- innerHTML and textContent-->
+    <div id="firstDiv">hello i am div!</div> 
+  
+    <!-- setAttribute() and getAttribute() --> 
+    <a id="target">link here</a>
+    <div id="url_1">url_1</div>
+    <div id="url_2">url_2</div>
+
+    <!-- createElement()  -->
+    <div id="mainDiv">
+        <h2>hello world</h2>
+    </div>
+
+    <!-- removeChild()remove()-->
+    <div id="mainDiv2">
+        <div id="child">
+            hello i am child div!div
+        </div>
+    </div>
+    <button onclick="remove()">remove child</button>
+
+    <!-- style property -->
+    <p id="myPara">Lorem ipsum dolor sit amet consectetur.</p>
+
+    <!-- appenchild using href-->
+    <div id="showtext">
+    </div>
+
+    <!-- add and remove class -->
+    <p id="myParaa">creating class list</p>
+    <button onclick="addClass()">add class</button>
+    <button onclick="removeClass()">remove class</button> <br>
+
+    <!-- createlement ul -->
+    <ul id="unorderedlist"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
