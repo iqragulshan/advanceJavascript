@@ -69,5 +69,5 @@ function myName1() {
   
    error.addEventListener("click", ()=>{
       const displayError =  counterExample.throw(new Error("something went wrong!!"));
-        console.log( displayError);
+       console.log(displayError);
 });
